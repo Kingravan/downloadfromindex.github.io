@@ -16,7 +16,7 @@ function Home()
 }
 function Youtube()
 {
-    window.location.href = "../html/youtube.html";
+    window.location.href = "../youtube.html";
 }
 function Instagram()
 {
