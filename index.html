@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <Link rel="Stylesheet" href="./css/style.css"></Link>
+        <script src="./js/script.js"></script>
+        <title>Download From Index</title>
+    </head>
+    <body>
+        <div class="Main">
+            <div class="Header">
+                <Button class="header-menu" id="Home"> <a href="./index.html"> <img src="./resources/home.png" width="50px" onload="Home()"> <br> Home</a></Button>
+                <Button class="header-menu" id="Youtube"> <a href="./html/youtube.html"> <img src="./resources/youtube-logo.png" width="50px"> <br> Youtube</a></Button>
+                <Button class="header-menu" id="Instagram"><a href="./html/instagram.html"> <img src="./resources/instagram-logo.png" width="50px"> <br> Instagram </a></Button>
+                <Button class="header-menu" id="Facebook"> <a href="./html/facebook.html"><img src="./resources/facebook-logo.png" width="50px"> <br> Facebook</a></Button>
+                <Button class="header-menu" id="Snapchat"> <a href="./html/snapchat.html"><img src="./resources/snapchat-logo.png" width="50px"> <br> Snapchat</a></Button>
+                <Button class="header-menu" id="WhatsApp"> <a href="./html/whatsapp.html"><img src="./resources/whatsapp-logo.png" width="50px"> <br> WhatsApp</a></Button>
+            </div>
+            <div class="Content-Body">
+                <div id="Left-AD-Section">
+                    <p>Leaft section for ads</p>
+                </div>
+                <div id="Center-Section">
+                    <div id="website-name">
+                        <h1 id="website_name">Download From Index</h1>
+                    </div>
+                    <div id="search-container">
+                        <img id="filetype" src="./resources/Combo-Box-Icons/all.png">
+                        <div id="search-box">
+                            <input type="text" id="input" placeholder="Enter name to find index of: " autofocus = true>
+                            <select name="download-options" id="option-list" onchange="combo_box()">
+                                <option value="All">All</option>
+                                <option value="Movies">Movies </option>
+                                <option value="TV Shows">TV Shows</option>
+                                <option value="Web Series">Web Series</option>
+                                <option value="Anime">Anime</option>
+                                <option value="Audio">Audio</option>
+                                <option value="Video">Video</option>
+                                <option value="Image">Image (JPG/PNG/etc)</option>
+                                <option value="PDF/EBOOK">PDF/E-Books</option>
+                                <option value="CSV/XLSX">CSV/XLSX</option>
+                                <option value="DOC/TXT/PPT">DOC/TXT/PPT</option>
+                                <option value="Software/Apps">Software/Apps</option>
+                                <option value="Games">Games</option>
+                                <option value="Compressed">Compressed</option>
+                            </select>
+                        </div>
+                        <button id="Search" onclick="search()"><img id="image-search" src="./resources/search.png" width="15px" alt="Search"></button>
+                    </div>
+                </div>
+                <div id="Right-AD-Section">
+                    <p>Right section for ads</p>
+                </div>
+            </div>
+            <div class="Content-Footer">
+                <p>Ad 1 will display here</p>
+                <p>Ad 2 will display here</p>
+            </div>
+        </div>
+    </body>
+</html>
